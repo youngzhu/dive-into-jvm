@@ -1,1 +1,1 @@
-# dive-into-jvm
+# 《深入理解Java虚拟机》学习笔记
