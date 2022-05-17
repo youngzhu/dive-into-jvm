@@ -9,7 +9,7 @@
 -XX:MetaspaceSize=750m
 -XX:MaxMetaspaceSize=750m
 
--Xverify:none
+-Xverify:none #影响 Class Loader Time
 
 -XX:+DisableExplicitGC #显式GC System.gc() 是没有必要的，可通过该选项来屏蔽或者说禁止
 ``
@@ -21,4 +21,14 @@
 -Dcom.sun.management.jmxremote.rmi.port=8578
 -Dcom.sun.management.jmxremote.authenticate=false
 -Dcom.sun.management.jmxremote.ssl=false
+``
+
+## GC
+``
+-XX:+PrintGC #输出GC日志
+-XX:+PrintGCDetails #输出GC的详细日志
+-XX:+PrintGCTimeStamps #输出GC的时间戳（以基准时间的形式）
+-XX:+PrintGCDateStamps #输出GC的时间戳（以日期的形式，如 2013-05-04T21:53:59.234+0800）
+-XX:+PrintHeapAtGC #在进行GC的前后打印出堆的信息
+-Xloggc:../logs/gc.log #这样日志就在IDEA的安装根目录下
 ``
