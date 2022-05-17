@@ -30,5 +30,5 @@
 -XX:+PrintGCTimeStamps #输出GC的时间戳（以基准时间的形式）
 -XX:+PrintGCDateStamps #输出GC的时间戳（以日期的形式，如 2013-05-04T21:53:59.234+0800）
 -XX:+PrintHeapAtGC #在进行GC的前后打印出堆的信息
--Xloggc:../logs/gc.log #这样日志就在IDEA的安装根目录下
+-Xloggc:../../gc.log #这样日志就在IDEA的安装根目录下
 ``
