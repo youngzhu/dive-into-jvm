@@ -1,4 +1,4 @@
-package ch07;
+package com.youngzy.ch07;
 
 /**
  * 先执行父类的类构造器方法（无引用的）

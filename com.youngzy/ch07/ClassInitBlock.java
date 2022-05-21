@@ -1,4 +1,4 @@
-package ch07;
+package com.youngzy.ch07;
 
 /**
  * 类构造器函数执行时间过长会导致线程阻塞

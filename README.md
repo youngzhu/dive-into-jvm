@@ -6,6 +6,6 @@
 - VisualVM(All-in-One Java Troubleshooting Tool)  
   JDK自带，路径：`%JAVA_HOME%\bin\jvisualvm`。网址：https://visualvm.github.io/index.html
 ## 资源
-- Java Language and Virtual Machine Specifications
+- Java Language and Virtual Machine Specifications  
   https://docs.oracle.com/javase/specs/index.html
 - 
