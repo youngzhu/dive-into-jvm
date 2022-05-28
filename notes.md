@@ -22,8 +22,12 @@
     - interface
     - Object
     - char... （变长参数优先级最低）
-- 重载（Overload） VS 覆写（Override）
-  - |重载|覆写|
-  - |--|--|
-  - |同一个方法名不同的参数类型|发生在继承关系中，子类覆盖父类中的方法|
-  - |父子类是参数|父子类是Receiver|
+- 重载（Overload） VS 覆写（Override）  
+  -|重载|覆写|
+  -|--|--|--|
+  |同一个方法名不同的参数类型|发生在继承关系中，子类覆盖父类中的方法|
+  |父子类是参数|父子类是Receiver|
+## ch12
+- `volatile`
+  - 适合修饰标记变量，如"是否已完成"，"是否已初始化"等，见[VolatileDemo4.java](com/youngzy/ch12/VolatileDemo4.java)
+  - 不适合用作计数器，即当前值会影响计算结果
